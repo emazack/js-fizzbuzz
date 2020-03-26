@@ -12,15 +12,17 @@ while (i <= 100) {
   i++;
 }
 console.log(Numeri);
-// 1 Identificare i numeri multipli di 3 che per definizione sono i numeri divisibili per 3; Ovvero che divisi per 3 non danno resto.
-// 2 Sostituirli con la parola fizz
-// 3 Identificare i numeri multipli di 5 che per definizione sono i numeri divisibili per 5; Ovvero che divisi per 5 non danno resto.
+// 1--- Identificare i numeri multipli di 3 che per definizione sono i numeri divisibili per 3; Ovvero che divisi per 3 non danno resto.
+// 2--- Sostituirli con la parola fizz
+// 3--- Identificare i numeri multipli di 5 che per definizione sono i numeri divisibili per 5; Ovvero che divisi per 5 non danno resto.
 
-// 4 Sostituirli con la parola FizzBuzz
+// 4--- Sostituirli con la parola FizzBuzz
 
-// 5 Identifica i numeri che sono divisibili sia per 3 che per 5
+// L'accortezza deve essere il fatto che se sono divisibili per 3 non devono esserlo per 5 e se sono divisibili per 5 non devono esserlo per 3 altrimenti si rischia di far entrare nella categoria sbagliata anche quelli divisibili sia per 3 che per 5.
 
-// 6 Per i numeri che sono sia multipli di 3 che di 5 stampi” FizzBuzz”
+// 5--- Identifica i numeri che sono divisibili sia per 3 che per 5
+
+// 6--- Per i numeri che sono sia multipli di 3 che di 5 stampi” FizzBuzz”
 for (var j = 0; j < Numeri.length; j++) {
   if (((Numeri[j] % 3) === 0) & (Numeri[j] % 5) !== 0) {
     Numeri[j] = "Fizz"
